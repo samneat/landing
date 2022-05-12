@@ -1,0 +1,94 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.container{
+  width: 900px;
+  margin: 0 auto;
+}
+
+.banner{
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(./images/otters.jpeg);
+  background-size: cover;
+  background-position: center;
+  padding: 200px;
+
+}
+
+.banner h1{
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p{
+  color: white;
+  font-size: 16px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+.btn-green {
+  background-color: #59A96A;
+  color: white;
+  padding: 16px 40px;
+  border-radius: 16px;
+}
+
+.btn-green:hover{
+  background-color: #498d58;
+}
+
+.plan-visit{
+  text-align: center;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-evenly;
+  color: #59A96A;
+}
+
+.card{
+  box-shadow: 5px 10px 32px #888888;
+  width: 250px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.card:hover{
+  transform: scale(1.15);
+}
+
+.card img{
+  height: 150px;
+}
+
+.footer{
+  background-color: #59A96A;
+  width: 100%;
+  padding-bottom: 65px;
+}
+
+.footer h2 {
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
